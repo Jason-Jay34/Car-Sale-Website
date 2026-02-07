@@ -20,6 +20,7 @@ font-weight: 500;
 padding: 10px 15px;
 border-radius: 5px;
 margin: 0 10px;
+font-weight: 500;
 }
 
 .hero {
@@ -73,8 +74,8 @@ margin: 0 10px;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+    padding-bottom: 100px;
 }
-
 .car-item {
     background-color: white;
     border: 1px solid #ddd;
@@ -92,3 +93,17 @@ margin: 0 10px;
     object-fit: cover;
 }
 
+.car-item:hover img {
+    transform: scale(1.05);
+    transition: transform 0.4s ease;
+}
+
+.section-2{
+    padding: 50px;
+    padding-top: 30px;
+    background-color: #f4f4f4;
+    color:white;
+    text-align: center;
+    background-image: url("images/Section2\ Bg.avif");
+    background-size: cover;
+}
